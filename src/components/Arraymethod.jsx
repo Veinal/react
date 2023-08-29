@@ -9,7 +9,7 @@ export default function Arraymethod() {
     }]
   return (
     <div>
-        <h3>{fruits}</h3>
+        <h2>{fruits}</h2>
         <ol>
             {fruits.map((row)=>{
                 return <li>{row}</li>
