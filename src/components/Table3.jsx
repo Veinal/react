@@ -30,6 +30,7 @@ export default function Table3() {
         <thead>
             <tr>
             <th>Sl no</th>
+            <th>Pic</th>
             <th>Name</th>
             <th>Phone</th>
             <th>Email</th>
