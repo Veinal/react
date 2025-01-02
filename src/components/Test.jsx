@@ -48,6 +48,10 @@ export default function Test() {
     // const [e,f,g,h,i]=arr2
     
     const arr3=[...new Set([...arr1,...arr2])]
+
+    let abc=false
+    let role="User"
+    let msg=abc?`${role} Login successful` : `Please login to access this page`
     
   return (
     <div>
@@ -85,6 +89,7 @@ export default function Test() {
         </ol>
 
         <h1>{arr3}</h1>
+        <h1>{msg}</h1>
     </div>
   )
 }

@@ -12,10 +12,12 @@ import Destructuring from './Destructuring'
 import Modal from './Modal'
 // import Formtable from './Formtable'
 import Form from './Form'
+import Card4modal from './Card4modal'
 
 import Formtable from './Formtable'
 import Usestate from './Usestate'
 import Useeffect from './Useeffect'
+import Updateform from './Updateform'
 
 export default function Router() {
   let arrayobj2=[
@@ -49,6 +51,8 @@ export default function Router() {
             <Route exact path='/formtable' element={<Formtable arrayobj2={arrayobj2}/>} />
             <Route exact path='/usestate' element={<Usestate />} />
             <Route exact path='/useeffect' element={<Useeffect />} />
+            <Route exact path='/card4modal' element={<Card4modal/>}/>
+            <Route exact path='/updateform/:id' element={<Updateform />} />
  
             <Route exact path='*' element={<Error />} /> 
         </Routes>
